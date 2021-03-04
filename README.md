@@ -1,3 +1,3 @@
-# roblox.py
-A Python API wrapper for Roblox services.
+# Pybloxy
 
+A Python API wrapper for Roblox services.
