@@ -23,19 +23,14 @@ import setuptools
 with open("README.md", "r") as RM:
     long_description = RM.read()
 
-setuptools.setup(
-    name="robloxpy",
+setuptools.setup (
+    name="roblox.py",
     version="0.0.1",
     author="R0bl0x10501050",
-    description="An Python API wrapper for Roblox services.",
+    description="A Python API wrapper for Roblox services.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/RbxAPI/Pyblox/tree/master",
-    packages=['pyblox3','pyblox3.api'],
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
+    url="https://github.com/R0bl0x10501050/roblox.py/tree/master",
+    packages=['roblox.py'],
     python_requires='>=3.5',
 )
