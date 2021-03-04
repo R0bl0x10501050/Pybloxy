@@ -1,6 +1,6 @@
 '''
 MIT License
-Copyright (c) 2019- Sanjay-B (Sanjay Bhadra)
+Copyright (c) 2021, R0bl0x10501050
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -23,7 +23,7 @@ import setuptools
 with open("README.md", "r") as RM:
     long_description = RM.read()
 
-setuptools.setup (
+setuptools.setup(
     name="roblox.py",
     version="0.0.1",
     author="R0bl0x10501050",
