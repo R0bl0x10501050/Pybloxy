@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "Pybloxy"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["R0bl0x10501050 <r0bl0x10501050@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-api = "^0.0.7"
+requests = "^2.2"
 
 [tool.poetry.dev-dependencies]
 
