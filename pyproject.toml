@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "Pybloxy"
-version = "0.1.1"
-description = ""
+version = "0.2.1"
+description = "A simplistic Roblox API wrapper written in Python."
 authors = ["R0bl0x10501050 <r0bl0x10501050@gmail.com>"]
 
 [tool.poetry.dependencies]

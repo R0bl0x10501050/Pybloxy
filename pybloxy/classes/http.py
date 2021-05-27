@@ -8,7 +8,7 @@ class Http:
 		content = payload.content
 
 		if statusCode != 200:
-			return logging.error(f"[Roblox.py - GET] Something went wrong! Error Code: {statusCode}")
+			return logging.error(f"[Pybloxy - GET] Something went wrong! Error Code: {statusCode}")
 		
 		return content
 
@@ -18,6 +18,6 @@ class Http:
 		content = payload.content
 
 		if statusCode != 200:
-			return logging.error(f"[Roblox.py - POST] Something went wrong! Error Code: {statusCode}")
+			return logging.error(f"[Pybloxy - POST] Something went wrong! Error Code: {statusCode}")
 		
 		return content

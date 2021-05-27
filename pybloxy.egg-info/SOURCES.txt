@@ -11,3 +11,4 @@ pybloxy/classes/friends.py
 pybloxy/classes/groups.py
 pybloxy/classes/http.py
 pybloxy/classes/user.py
+pybloxy/classes/util.py
