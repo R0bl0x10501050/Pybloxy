@@ -1,7 +1,5 @@
 # Pybloxy
 
-A Python API wrapper for Roblox services.
-
 Pybloxy is a Python API wrapper for the Roblox API. You can use this for bots, websites, you name it!
 
 # Setup
@@ -45,6 +43,7 @@ RBLXTOKEN=TokenHere
 3. Now, when you log in to your bot, just do this:
 ```py
 from Pybloxy import Users
+import os
 
 User.login(os.getenv("RBLXTOKEN"))
 ```
